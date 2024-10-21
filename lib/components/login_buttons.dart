@@ -30,7 +30,7 @@ class _LoginInButtonsState extends State<LoginInButtons> {
                     builder: (builder) => const PhoneAuthScreen()));
           },
           child: CustomIconButton(
-            text: 'Sign In with Phone',
+            text: 'Inicia sesion con el telefono',
             imageIcon: 'assets/phone.png',
             bgColor: greyColor,
             imageOrIconColor: whiteColor,
@@ -48,7 +48,7 @@ class _LoginInButtonsState extends State<LoginInButtons> {
             }
           },
           child: CustomIconButton(
-            text: 'Sign In with Google',
+            text: 'Inicia Sesion con Google',
             imageIcon: 'assets/google.png',
             bgColor: whiteColor,
           ),

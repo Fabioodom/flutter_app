@@ -29,7 +29,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   padding: WidgetStateProperty.all(
                       const EdgeInsets.symmetric(vertical: 20, horizontal: 50))),
               onPressed: () async {
-                loadingDialogBox(context, 'Signing Out');
+                loadingDialogBox(context, 'Cerrando sesion');
 
                 Navigator.of(context).pop();
                 await googleSignIn.signOut();
@@ -40,7 +40,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 });
               },
               child: const Text(
-                'Sign Out',
+                'Cerrar Sesion',
               ))
         ],
       ),

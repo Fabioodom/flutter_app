@@ -54,14 +54,14 @@ class _SplashScreenState extends State<SplashScreen> {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Text(
-                  'Bechdal',
+                  'NewOrder',
                   style: TextStyle(
                       color: secondaryColor,
                       fontWeight: FontWeight.bold,
                       fontSize: 30),
                 ),
                 Text(
-                  'Sell your un-needs here !',
+                  'Vende aqui tus productos!',
                   style: TextStyle(
                     color: blackColor,
                     fontSize: 20,

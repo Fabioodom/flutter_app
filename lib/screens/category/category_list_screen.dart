@@ -23,7 +23,7 @@ class CategoryListScreen extends StatelessWidget {
         elevation: 0,
         iconTheme: IconThemeData(color: blackColor),
         title: Text(
-          isForForm == true ? 'Select Category' : 'Categories',
+          isForForm == true ? 'Seleciona Categorias' : 'Categorias',
           style: TextStyle(color: blackColor),
         ),
       ),

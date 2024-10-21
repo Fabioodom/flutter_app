@@ -26,7 +26,7 @@ class _LoginScreenState extends State<LoginScreen> {
       child:
           Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
         LargeHeadingWidget(
-            heading: 'Welcome', subHeading: 'Sign In to Continue'),
+            heading: 'Bienvenido', subHeading: 'Logeate para continuar'),
         LogInForm(),
       ]),
     );

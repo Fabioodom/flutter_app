@@ -30,7 +30,7 @@ class WelcomeScreen extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'AUTRADE',
+                  'NEWORDER',
                   style: TextStyle(
                     color: blackColor,
                     fontSize: 40,
@@ -75,7 +75,7 @@ class WelcomeScreen extends StatelessWidget {
               bgColor: whiteColor,
               borderColor: blackColor,
               textColor: blackColor,
-              text: 'Log In',
+              text: 'Inicia Sesion',
               onPressed: () {
                 Navigator.pushNamed(context, LoginScreen.screenId);
               }),
@@ -88,7 +88,7 @@ class WelcomeScreen extends StatelessWidget {
           child: roundedButton(
               context: context,
               bgColor: secondaryColor,
-              text: 'Sign Up',
+              text: 'Registrate',
               textColor: whiteColor,
               onPressed: () {
                 Navigator.pushNamed(context, RegisterScreen.screenId);
