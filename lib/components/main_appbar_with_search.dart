@@ -71,7 +71,7 @@ class _MainAppBarWithSearchState extends State<MainAppBarWithSearch> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
-                  "Bechdal",
+                  "NEWORDER",
                   style: TextStyle(
                     color: blackColor,
                     fontSize: 34,
